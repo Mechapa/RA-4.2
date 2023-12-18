@@ -13,9 +13,32 @@
   }
 }
 
+.container {
+  display: flex;
+  padding:5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  margin: auto;
+  margin-top: 100px
+}
+
+.list_container{
+  display: flex;
+  padding:5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  margin: auto;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
